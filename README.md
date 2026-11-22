@@ -284,29 +284,3 @@ These are descriptions for screenshots to capture during the exercise; no screen
 9. **Clone:** Terminal and File Explorer showing the separate `LibraryManagementSystem-clone` folder.
 10. **Pull:** GitHub showing the README edit and the clone terminal showing `git pull origin main`.
 
-## Viva questions and answers
-
-1. **What is Git?**  
-   Git is a distributed version-control system that records and manages changes to files.
-2. **What is GitHub?**  
-   GitHub is a hosting and collaboration platform for Git repositories.
-3. **What does `git init` do?**  
-   It creates a local Git repository in the current folder.
-4. **What is the staging area?**  
-   It is the index of selected changes that will be included in the next commit.
-5. **What is a commit?**  
-   A commit is a saved snapshot of staged changes with a message and metadata.
-6. **What is a branch?**  
-   A branch is a movable line of development that lets work proceed independently.
-7. **What does `git push -u origin book-issue` do?**  
-   It publishes the local branch to the `origin` remote and sets its upstream tracking branch.
-8. **What is the difference between `git clone` and `git pull`?**  
-   `clone` creates a local copy of a remote repository; `pull` fetches and integrates updates into an existing local branch.
-9. **What does `git status` show?**  
-   It shows the current branch and tracked, untracked, staged, or unstaged changes.
-10. **How does this program prevent issuing an already issued book?**  
-    It checks `issued_to` before recording a borrower and prints a message if the book is unavailable.
-11. **Where does the issue record persist?**  
-    Only in memory while the program is running; restarting the program resets the sample catalog.
-12. **Why use functions in the program?**  
-    Functions separate catalog display, issue handling, and menu control, making the code easier to read and test.
